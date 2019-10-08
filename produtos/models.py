@@ -8,4 +8,4 @@ class Produto(models.Model):
     preco = models.DecimalField(max_digits=30, decimal_places=2)
 
     def __str__(self):
-        return self.name
+        return self.descricao
