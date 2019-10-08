@@ -5,5 +5,5 @@ from rest_framework.response import Response
 
 class ProdutoListView(generics.ListAPIView):
     queryset = Produto.objects.all()
-    serializers_class = serializers.ProdutoSerializer
+    serializer_class = serializers.ProdutoSerializer
 
